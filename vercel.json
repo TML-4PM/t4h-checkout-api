@@ -1,22 +1,6 @@
 {
   "version": 2,
   "functions": {
-    "api/*.js": {
-      "maxDuration": 15
-    }
-  },
-  "routes": [
-    {
-      "src": "/api/products",
-      "dest": "/api/products.js"
-    },
-    {
-      "src": "/api/checkout",
-      "dest": "/api/checkout.js"
-    },
-    {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
-    }
-  ]
+    "api/*.js": { "maxDuration": 15 }
+  }
 }
